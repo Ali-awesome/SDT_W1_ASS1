@@ -1,0 +1,49 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+body {
+  background-image: url(images/abstract-gold-background.jpg);
+}
+.btn {
+  background-color: #005c51;
+  color: white;
+}
+.btn:hover {
+  background-color: #005c51;
+  color: white;
+  transform: scale(1.2);
+}
+.nav-link,
+.portfolio,
+.card,
+.form-control::placeholder {
+  color: #005c51;
+}
+.card {
+  background-color: #ebf2f3;
+}
+.nav-link:hover {
+  color: #ffffff;
+}
+.nav_logo {
+  width: 50%;
+}
+.hero {
+  color: #005c51;
+  width: 90vw;
+}
+.footer {
+  background-color: #005c51;
+  color: #ffffff;
+}
+@media only screen and (max-width: 768px) {
+  .btn {
+    width: 80px;
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .txt {
+    width: 50vw;
+  }
+}
